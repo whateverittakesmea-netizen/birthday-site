@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Birthday Collection ✨</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background: #090d1a;
+      color: #f5f0e8;
+      line-height: 1.7;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+      background:
+        radial-gradient(circle at top, #252447, transparent 45%),
+        #090d1a;
+    }
+
+    .small {
+      color: #b9abc9;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 78px);
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #d8d1ca;
+      font-family: Arial, sans-serif;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 13px 25px;
+      border: 1px solid #b9abc9;
+      border-radius: 30px;
+      color: #fff;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #b9abc9;
+      color: #090d1a;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 100px 25px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 38px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #aaa3a0;
+      font-family: Arial, sans-serif;
+      margin-bottom: 50px;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+
+    .photo-card {
+      background: #111727;
+      padding: 12px;
+      border-radius: 14px;
+      transition: transform 0.3s;
+    }
+
+    .photo-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: 330px;
+      object-fit: cover;
+      border-radius: 9px;
+      display: block;
+      background: #202638;
+    }
+
+    .caption {
+      padding: 15px 8px 8px;
+      color: #d7d0ca;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    .story {
+      background: #101526;
+      border-radius: 20px;
+      padding: 45px;
+      text-align: center;
+      color: #ddd6d0;
+      font-family: Arial, sans-serif;
+      font-size: 17px;
+    }
+
+    .story p + p {
+      margin-top: 20px;
+    }
+
+    .ending {
+      text-align: center;
+      padding-bottom: 120px;
+    }
+
+    .ending h2 {
+      font-size: 48px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    .ending p {
+      color: #aaa3a0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #777;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="small">A LITTLE SOMETHING FOR YOU</div>
+
+    <h1>Happy Birthday ✨</h1>
+
+    <p>
+      For the person I accidentally met on Discord...
+      and somehow became really good friends with.
+    </p>
+
+    <a href="#photos" class="button">Okay, show me 👀</a>
+  </div>
+
+
+  <section id="photos">
+    <h2 class="section-title">A little collection of you</h2>
+
+    <p class="section-subtitle">
+      9 pictures. Because apparently choosing just one was impossible. 😭
+    </p>
+
+    <div class="photos">
+
+      <div class="photo-card">
+        <img src="images/photo1.jpg" alt="Birthday photo">
+        <div class="caption">
+          Professional sitting-and-looking-pretty enthusiast.
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo2.jpg" alt="Birthday photo">
+        <div class="caption">
+          Nature, apparently, is just your personal photoshoot location.
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo3.jpg" alt="Birthday photo">
+        <div class="caption">
+          Okay fine, the garden pictures are actually pretty good. 😭
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo4.jpg" alt="Birthday photo">
+        <div class="caption">
+          Flowers found. Picture taken. Mission successful.
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo5.jpg" alt="Birthday photo">
+        <div class="caption">
+          Meanwhile, Discord camera me only gets the study-session version. 💀
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo6.jpg" alt="Birthday photo">
+        <div class="caption">
+          Okay... this one deserves its own moment.
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo7.jpg" alt="Birthday photo">
+        <div class="caption">
+          Another day, another side quest apparently.
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo8.jpg" alt="Birthday photo">
+        <div class="caption">
+          Some moments don't need a caption.
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img src="images/photo9.jpg" alt="Birthday photo">
+        <div class="caption">
+          Alright. Enough judging the pictures. 😭
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="section-title">Okay, jokes aside.</h2>
+
+    <div class="story">
+
+      <p>
+        It's honestly kinda funny how we met.
+      </p>
+
+      <p>
+        Two random people on Discord, originally just trying to study...
+        and somehow that turned into calls, camera-on study sessions,
+        random conversations, sharing things about life,
+        and all those little conversations in between.
+      </p>
+
+      <p>
+        I didn't really expect to make a genuinely good friend
+        out of a random study partner.
+        But I'm really glad I did.
+      </p>
+
+      <p>
+        No dramatic birthday speech.
+        No 500-word essay. 😭
+      </p>
+
+      <p>
+        Just wanted you to know that I'm genuinely happy we became friends.
+      </p>
+
+    </div>
+  </section>
+
+
+  <section class="ending">
+    <h2>Happy Birthday 🤍</h2>
+
+    <p>
+      Here's to another year of surviving life
+      and pretending we're productive. 😭
+    </p>
+
+    <a href="#top" class="button">Back to the beginning ↑</a>
+  </section>
+
+
+  <footer>
+    Made with questionable coding skills & good intentions.
+  </footer>
+
+</body>
+</html>
